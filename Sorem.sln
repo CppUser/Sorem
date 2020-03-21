@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoremSandBox", "..\SoremSandBox\SoremSandBox.vcxproj", "{49501FEA-2958-4146-A788-595CB6DFA9D2}"
+EndProject
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sorem", "Sorem.vcxproj", "{E0C868F6-F6AC-46B1-AC77-3344655EED5E}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0C868F6-F6AC-46B1-AC77-3344655EED5E}.Debug|x64.ActiveCfg = Debug|x64
+		{E0C868F6-F6AC-46B1-AC77-3344655EED5E}.Debug|x64.Build.0 = Debug|x64
+		{E0C868F6-F6AC-46B1-AC77-3344655EED5E}.Release|x64.ActiveCfg = Release|x64
+		{E0C868F6-F6AC-46B1-AC77-3344655EED5E}.Release|x64.Build.0 = Release|x64
+		{49501FEA-2958-4146-A788-595CB6DFA9D2}.Debug|x64.ActiveCfg = Debug|x64
+		{49501FEA-2958-4146-A788-595CB6DFA9D2}.Debug|x64.Build.0 = Debug|x64
+		{49501FEA-2958-4146-A788-595CB6DFA9D2}.Release|x64.ActiveCfg = Release|x64
+		{49501FEA-2958-4146-A788-595CB6DFA9D2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9C74C9E-D5BC-4A68-9566-BC0D691B2115}
+	EndGlobalSection
+EndGlobal
