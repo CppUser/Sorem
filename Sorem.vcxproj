@@ -84,6 +84,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Sorem\2D\TextureHolder.h" />
+    <ClInclude Include="src\Sorem\2D\Window.h" />
     <ClInclude Include="src\Sorem\Log.h" />
     <ClInclude Include="src\Sorem.h" />
     <ClInclude Include="src\Sorem\Core.h" />
@@ -91,6 +92,7 @@
     <ClInclude Include="src\Sorem\SoremApp.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Sorem\2D\Window.cpp" />
     <ClCompile Include="src\Sorem\Log.cpp" />
     <ClCompile Include="src\Sorem\SoremApp.cpp" />
   </ItemGroup>
