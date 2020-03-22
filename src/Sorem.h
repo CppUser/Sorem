@@ -1,5 +1,6 @@
 #pragma once
 #include "Sorem/SoremApp.h"
+#include"Sorem/Log.h"
 
 
 //***************************

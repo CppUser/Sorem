@@ -27,9 +27,18 @@
     <ClInclude Include="src\Sorem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Sorem\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sorem\2D\TextureHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Sorem\SoremApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sorem\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -58,6 +58,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>SOREM_PLATFORM_WINDOWS;SOREM_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\spdlog\include;$(SolutionDir)vendor\SFML\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -72,6 +73,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>SOREM_PLATFORM_WINDOWS;SOREM_BUILD_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)vendor\spdlog\include;$(SolutionDir)vendor\SFML\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -81,12 +83,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Sorem\2D\TextureHolder.h" />
+    <ClInclude Include="src\Sorem\Log.h" />
     <ClInclude Include="src\Sorem.h" />
     <ClInclude Include="src\Sorem\Core.h" />
     <ClInclude Include="src\Sorem\EntryPoint.h" />
     <ClInclude Include="src\Sorem\SoremApp.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Sorem\Log.cpp" />
     <ClCompile Include="src\Sorem\SoremApp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
